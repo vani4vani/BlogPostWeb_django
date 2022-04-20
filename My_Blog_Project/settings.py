@@ -15,9 +15,9 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-67+o2ryx^-&o)-hp4)%6pw1@1g#j*2k_-f6)s1uhvpt=j5r+@z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vani-dscc-7.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
